@@ -1,0 +1,218 @@
+[
+	{
+		"pk": 1,
+		"model": "team.Member",
+		"fields": {
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/OL/OLPTEGCLTOYLPKB.20120829180406.jpg",
+				"name": "Joel James",
+				"position": "Forward",
+				"year": "Freshman",
+				"hometown": "West Palm Beach, Fla.",
+				"number": "0",
+				"funFact": "Did not play organized basketball until his sophomore year of high school"
+			}
+		
+	},{
+		"pk": 2,
+		"model": "team.Member",
+		"fields": {
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/QW/QWEMKTTTVFYZDRF.20120829180406.jpg",
+				"name": "Dexter Strickland",
+				"position": "Guard",
+				"year": "Senior",
+				"hometown": "Rahway, N.J.",
+				"number": "1",
+				"funFact": "Has started 59 of 92 games"
+		
+		}
+
+	},{
+		"pk": 3,
+		"model": "team.Member",
+		"fields": {
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/SF/SFPHRVMNAPVRNOV.20120829180406.jpg",
+				"name": "Leslie McDonald",
+				"position": "Guard",
+				"year": "Junior",
+				"hometown": "Memphis, Tenn.",
+				"number": "2",
+				"funFact": "Has 62 career three-pointers"
+		}
+
+	},{
+		"pk": 4,
+		"model": "team.Member",
+		"fields":{
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/ZQ/ZQKLSWRJBJFXBGL.20121030160827.jpg",
+				"name": "Wade Moody",
+				"position": "Guard",
+				"year": "Junior",
+				"hometown": "Mount Airy, N.C",
+				"number": "3",
+				"funFact": "A veteran of the UNC Junior Varsity program"
+			}
+
+	},{
+		"pk": 5,
+		"model": "team.Member",
+		"fields":{
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/HG/HGAPQXZWZIUPPAR.20120829180405.jpg",
+				"name": "Luke Davis",
+				"position": "Guard",
+				"year": "Sophomore",
+				"hometown": "Raleigh, N.C.",
+				"number": "4",
+				"funFact": "Transferred to UNC from Gardner Webb after playing for the Buildings"
+			}
+	},{
+		
+		"pk": 6,
+		"model": "team.Member",
+		"fields":{
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/UN/UNRNDTAWVSSJBXG.20120829180406.jpg",
+				"name": "Marcus Paige",
+				"position": "Guard",
+				"year": "Freshman",
+				"hometown": "Marion, Iowa",
+				"number": "5",
+				"funFact": "Is left-handed"
+			}
+	},{
+
+		"pk": 7,
+		"model": "team.Member",
+		"fields":{
+
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/BZ/BZJVKCYIJSWFEHC.20120829180406.jpg",
+				"name": "Brice Johnson",
+				"position": "Forward",
+				"year": "Freshman",
+				"hometown": "Orangeburg, S.C.",
+				"number": "11",
+				"funFact": "Member of the National Honor Socient and Fellowhsip of Christian Athletes in high school"
+			}
+	},{
+		"pk": 8,
+		"model": "team.Member",
+		"fields": {
+
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/XM/XMDFRPSKACTQOKE.20120829180405.jpg",
+				"name": "Desmond Hubert",
+				"position": "Forward",
+				"year": "Sophomore",
+				"hometown": "Cream Ridge, N.J.",
+				"number": "14",
+				"funFact": "Played 25 games as a freshman"
+			}
+	},{
+		"pk": 9,
+		"model": "team.Member",
+		"fields": {
+
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/RM/RMMSLCKRRQGODUZ.20120829180405.jpg",
+				"name": "PJ Hairston",
+				"position": "Guard",
+				"year": "Sophomore",
+				"hometown": "Greensboro, N.C.",
+				"number": "15",
+				"funFact": "Born on Christmas Eve in 1992."
+			}
+	},{
+		"pk": 10,
+		"model": "team.Member",
+		"fields": {
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/ZJ/ZJVDJDHRWAAAWCT.20120829180406.jpg",
+				"name": "Jackson Simmons",
+				"position": "Forward",
+				"year": "Sophomore",
+				"hometown": "Webster, N.C.",
+				"number": "21",
+				"funFact": "Played 23 games as a freshman"
+			}
+	},{
+		"pk": 11,
+		"model": "team.Member",
+		"fields": {
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/HY/HYQGQZXWGNSKBBI.20121030160827.jpg",
+				"name": "Frank Tanner",
+				"position": "Forward",
+				"year": "Senior",
+				"hometown": "Charlotte, N.C.",
+				"number": "22",
+				"funFact": "A two-year veteran of the UNC Junior Varsity program"
+			}
+	},{
+		"pk": 12,
+		"model": "team.Member",
+		"fields": {
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/WO/WOUYKMLWAZVLUGG.20120829180406.jpg",
+				"name": "J.P Tokoto",
+				"position": "Forward",
+				"year": "Freshman",
+				"hometown": "Menomonee Falls, Wisc.",
+				"number": "25",
+				"funFact": "Played soccer until age 13"
+		}
+
+	},{	"pk": 13,
+		"model": "team.Member",
+		"fields": {
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/ES/ESUDLCOGIZHPAPH.20121030160827.jpg",
+				"name": "James Manor",
+				"position": "Forward",
+				"year": "Junior",
+				"hometown":"Carrboro, N.C.",
+				"number": "30",
+				"funFact": "A two-year veteran of UNC Junior Varsity program"
+			}
+		
+
+		},{
+
+		"pk": 14,
+		"model": "team.Member",
+		"fields": {
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/EG/EGIVRIMMHQNYZUC.20121030160827.jpg",
+				"name":"Denzel Robinson",
+				"position": "Forward",
+				"year": "Junior",
+				"hometown": "Chapel Hill, N.C.",
+				"number": "34",
+				"funFact": "A walk-on who joined the varisty team in October 2012"
+			}	
+
+		},{
+
+			"pk": 15,
+			"model": "team.Member",
+			"fields": {
+				
+				"image":"http://image.cdnllnwnl.xosnetwork.com/pics32/400/WN/WNGAFGRVTXTXAMH.20120829180405.jpg",
+				"name": "Reggie Bullock",
+				"position": "Guard",
+				"year": "Junior",
+				"hometown": "Kinston, N.C.",
+				"number": "34",
+				"funFact": "Carolina's leading returning scorer for 2012-2013"
+
+			}
+
+		},{
+			"pk": 16,
+			"model": "team.Member",
+			"fields": {
+
+				"image": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/ID/IDEJCORHUUOOGID.20120829180406.jpg",
+				"name": "James Michael McAdoo",
+				"position": "Forward",
+				"year": "Sophomore",
+				"hometown": "Norfolk, Va.",
+				"number": "43",
+				"funFact": "His parents played professional basketball overseas"
+
+			}	
+
+		}
+
+
+]

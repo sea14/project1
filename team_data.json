@@ -1,0 +1,14 @@
+[
+	{
+		"pk": 1,
+		"model": "team.Team",
+	
+		"fields": {
+		
+		"name": "UNC 2012-2013 Men's Basketball Team",
+		"coach": "Roy Williams",
+		"wins": "20",
+		"losses": "8"
+		}
+	}
+]
