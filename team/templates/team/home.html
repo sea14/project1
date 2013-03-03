@@ -1,14 +1,8 @@
 <!DOCTYPE html>
+{% extends "base.html"%}
 {% load humanize %}
-<html>
-<head>
-	<title>UNC Men's Basketball Team</title>
-</head>
 
-<body>
+{% block content %}
 <h1>The Team and its Players</h1>
-<p>This team has {{ member_count }} members.</p>
-
-</body>
-
-</html>
+<p>This team has {{ member_count }} players in it. </p>
+{% endblock %}
