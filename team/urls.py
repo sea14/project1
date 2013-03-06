@@ -5,8 +5,8 @@ from team import views
 
 urlpatterns = patterns('',
 	url(r'^$', views.home, name='team_home'),
-	#url(r'^team/$', views.teamList, name = 'team_team_list'),
-	#url(r'^member/$', views.memberList, name = 'team_member_list'),
-	url(r'^team/(?P<pk>\d+)$', views.team, name='team_team'),
-	url(r'^member/(?P<pk>\d+)$', views.member, name='team_member'),
+	url(r'^teams/$', views.teamsList, name = 'team_teams_list'),
+	url(r'^member/$', views.memberList, name='team_member_list'),
+	url(r'^teams/(?P<pk>\d+)$', views.teams, name='team_teams'),
+	url(r'^member/(?P<pk>\d+)$',views.member, name='teams_member'),
 	)

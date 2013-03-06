@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 {% extends "base.html"%}
 {% load humanize %}
+{% load url from future %}
+
 
 {% block content %}
 <h1>The Team and its Players</h1>
 <p>This team has {{ member_count }} players in it. </p>
-{% endblock %}
+
+
+<p><a href="{% url 'team_member_list %}">List of team members</a></p>
+{ %endblock %}

@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 
 from django.contrib import admin
-from team.models import Member, Team
+from team.models import Member, Teams
 
 class MemberAdmin(admin.ModelAdmin):
 	search_fields = ('name',)
 
 admin.site.register(Member, MemberAdmin)
 
-class TeamAdmin(admin.ModelAdmin):
+class TeamsAdmin(admin.ModelAdmin):
 	search_fields = ('name',)
 
-admin.site.register(Team, TeamAdmin)
+admin.site.register(Teams, TeamsAdmin)
