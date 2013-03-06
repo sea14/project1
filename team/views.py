@@ -12,12 +12,11 @@ def home(request):
 	return render(request, "base.html", context)
 
 def member(request, pk):
-	#member = Member.objects.order_by('?')[0]
-	course = get_object_or_404(Member, id=pk)
+	member = Member.objects.all()
+	#member = get_object_or_404(Member, id=pk)
 	return render(request, "team/member.html", {'member': member})
 
 def teams(request, pk):
-	#teams = Teams.objects.order_by('?')[0]
 	teams = get_object_or_404(Teams, id=pk)
 	return render(request, "team/teams.html", {'teams': teams})
 

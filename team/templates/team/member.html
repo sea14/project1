@@ -1,12 +1,21 @@
-<DOCTYPE html>
-<html>
-<head>
-<title>member page</title>
+{% extends "base.html"%}
+{% block content %}
 
-</head>
-Member Name
-<body>
+	<table>
+	<th>Name</th>
+	<th>Number</th>
+	<th>Position</th>
+	<th>Year</th>
+	{% for a in member %}
+	<tr>
+	 <td>{{a.name}}</td>
+	 <td>{{a.number}}</td>
+	 <td>{{a.position}}</td>
+	 <td>{{a.year}}</td>
 
-</body>
+	</tr>
+	
+	{% endfor %} 
+	</table>
 
-</html>
+{% endblock %}
