@@ -9,7 +9,7 @@ def home(request):
 	'member_count': Member.objects.count(),
 	'team_count': Teams.objects.count(),
 }
-	return render(request, "base.html", context)
+	return render(request, "team/home.html", context)
 
 def member(request, pk):
 	member = Member.objects.all()
