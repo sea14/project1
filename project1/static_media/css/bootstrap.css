@@ -227,7 +227,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #000;
+  background-color: #000033;
 }
 
 a {
@@ -5964,6 +5964,8 @@ a.badge:focus {
   position: relative;
   margin-bottom: 20px;
   line-height: 1;
+  width: 65%;
+  overflow: hidden;
 }
 
 .carousel-inner {

@@ -4,11 +4,44 @@
 <head>
 	<title>{% block title %}{% endblock %}</title>
 	<link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet">
+	
 </head>
 
 <body>
 <div class="container">
-	{% block content %}{% endblock %}	
+	{% block content %}
+
+	<ul class = "nav nav-pills">
+		<li><a href="">Carolina Basketball Home</a></li>
+		<li><a href="">Men's Basketball Team</a></li>
+		<li><a href="">Women's Basketball Team</a></li>
+	</ul>
+
+        <div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+                <div class="active item"><img src="http://www.goheels.com/pics32/640/XY/XYUXGDSPAYVUGHG.20121220091016.jpg"></div>
+                <div class="item"><img src="http://www.goheels.com/pics33/640/WX/WXQIAALTQTULHEJ.20130309233840.jpg"></div>
+                <div class="item"><img src= "http://image.cdnllnwnl.xosnetwork.com/pics33/640/CK/CKIZIXECXJRLOTU.20130303220258.jpg"></div>
+        	<div class="item"><img src="http://image.cdnllnwnl.xosnetwork.com/pics32/640/QM/QMDLTWCWBHUIKYC.20130118015455.jpg"></div>
+		<div class="item"><img src="http://image.cdnllnwnl.xosnetwork.com/pics33/640/OV/OVUYZKHZSZNYAQP.20130307161201.jpg"></div>
+	</div>
+        <!--Carousel nav -->
+        <a class ="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+
+	</div>
+
+
+
+
+	{% endblock %}	
 </div>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
