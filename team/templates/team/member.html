@@ -1,4 +1,6 @@
 {% extends "base.html"%}
+{% load humanize %}
+{% load url from future %}
 {% block content %}
 	
 	  <ul class = "nav nav-pills">
@@ -7,22 +9,7 @@
                 <li><a href="">Women's Basketball Team</a></li>
         </ul>
         </div>
-
-	<table>
-	<th>Name</th>
-	<th>Number</th>
-	<th>Position</th>
-	<th>Year</th>
-	{% for a in member %}
-	<tr>
-	 <td>{{a.name}}</td>
-	 <td>{{a.number}}</td>
-	 <td>{{a.position}}</td>
-	 <td>{{a.year}}</td>
-
-	</tr>
 	
-	{% endfor %} 
-	</table>
-
+	<h1>#{{member.number}} {{member.name}}</h1>
+		
 {% endblock %}
