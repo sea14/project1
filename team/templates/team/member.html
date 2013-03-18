@@ -16,9 +16,17 @@
         </ul>
         </div>
 	<div id="playersCard">
-	    <h2>#{{member.number}} {{member.name}} <img src="{{ STATIC_URL }}/img/tinyball.png"> {{member.year}} {{member.position}}</h2>
-	    <img src="{{member.image}}">
-		  
 	    
+	    <h2>#{{member.number}} {{member.name}} <img src="{{ STATIC_URL }}/img/tinyball.png">
+	    <hr>
+	    <h2>{{member.position}}</h2>
+	    <img src="{{member.image}}">
+	    
+		  <table class="table">
+			<tr><h4>Fun Fact: {{member.funFact}}</h4></tr>
+			<tr><h4>Hometown: {{member.hometown}}</h4></tr>
+			<tr><h4>Grade: {{member.year}}</h4></tr>
+		  </table>
+		  
 	</div> <!--close playersCard-->
 {% endblock %}
