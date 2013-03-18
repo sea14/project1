@@ -2,6 +2,12 @@
 {% load humanize %}
 {% load url from future %}
 {% block content %}
+      
+      <div id = "logo">
+	    
+	    <img src="{{ STATIC_URL }}/img/.png">
+	    
+      </div>
 	
 	  <ul class = "nav nav-pills">
                 <li><a href="">Carolina Basketball Home</a></li>
@@ -9,7 +15,16 @@
                 <li><a href="">Women's Basketball Team</a></li>
         </ul>
         </div>
-	
-	<h1>#{{member.number}} {{member.name}}</h1>
-		
+	<div id="playersCard">
+	    <h2>#{{member.number}} {{member.name}} <img src="{{ STATIC_URL }}/img/tinyball.png"> {{member.year}} {{member.position}}</h2>
+	    <img src="{{member.image}}">
+	    
+	    <div class="right">
+	    <table>
+		  <tr>
+	    <td><p>Fun fact: {{member.funFact}}</p></td>
+		  </tr>
+	    </div>
+	    
+	</div> <!--close playersCard-->
 {% endblock %}

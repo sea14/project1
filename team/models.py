@@ -18,9 +18,6 @@ class Member(models.Model):
 #	def __unicode__(self):
 #		return U'%s %s' %(self.name)
 
-	def save(self, *args, **kwargs):
-		self.name = self.name.upper()
-		super(Member, self).save(*args, **kwargs)
 
 class Teams(models.Model):
 	image = models.URLField(max_length = 200)
@@ -34,4 +31,5 @@ class Teams(models.Model):
 #		verbose_name_plural = "Teams"
 
 #	def __unicode__(self):
-#		return U'% %s' %(self.name)	
+#		return U'% %s' %(self.name)
+	

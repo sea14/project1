@@ -7,14 +7,17 @@
                 <li><a href="">Women's Basketball Team</a></li>
         </ul>
         </div>
-
-	<table>
+	
+	<p>this is definitely teamsList, just saying</p>
+	
+		<table>
 	<th>Name</th>
 	<th>Number</th>
 	<th>Position</th>
 	<th>Year</th>
-	{% for a in member %}
+	{% for a in teamsList.member %}
 	<tr>
+
 	 <td>{{a.name}}</td>
 	 <td>{{a.number}}</td>
 	 <td>{{a.position}}</td>
@@ -24,5 +27,6 @@
 	
 	{% endfor %} 
 	</table>
+	
 
 {% endblock %}
