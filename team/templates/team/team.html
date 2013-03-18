@@ -1,5 +1,7 @@
 {% extends "base.html"%}
+{% load url from future %}
 {% block content %}
+
 	
 	  <ul class = "nav nav-pills">
                 <li><a href="">Carolina Basketball Home</a></li>
@@ -8,14 +10,14 @@
         </ul>
         </div>
 
-	<table>
+	<table class = "table">
 	<th>Name</th>
 	<th>Number</th>
 	<th>Position</th>
 	<th>Year</th>
 	{% for a in memberCount %}
 	<tr>
-	 <td>{{a.name}}</td>
+	 <td><a href="{% url 'teams_member' a.id %}">{{a.name}}</a></td>
 	 <td>{{a.number}}</td>
 	 <td>{{a.position}}</td>
 	 <td>{{a.year}}</td>
@@ -24,5 +26,5 @@
 	
 	{% endfor %} 
 	</table>
-
+      </div>
 {% endblock %}
