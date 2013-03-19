@@ -227,18 +227,11 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background: #7abcff; /* Old browsers */
-  background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
-}
+  background: #65aef9;
+  }
 
 a {
-  color: #0088cc;
+  color: #FFF;
   text-decoration: none;
 }
 
@@ -2013,10 +2006,10 @@ table {
   margin-bottom: 20px;
 }
 
-.table th,
+
 .table td {
   padding: 8px;
-  line-height: 20px;
+  line-height: 40px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
@@ -2024,6 +2017,9 @@ table {
 
 .table th {
   font-weight: bold;
+  padding: 8px;
+  vertical-align: top;
+  text-align: left;
 }
 
 .table thead th {
@@ -5971,7 +5967,7 @@ a.badge:focus {
   position: relative;
   margin-bottom: 20px;
   line-height: 1;
-  width: 65%;
+  width: 75%;
   overflow: hidden;
 }
 

@@ -5,14 +5,13 @@
       
       <div id = "logo">
 	    
-	    <img src="{{ STATIC_URL }}/img/.png">
+	    <h1>{{teams.name}}</h1>
 	    
       </div>
 	
 	  <ul class = "nav nav-pills">
-                <li><a href="">Carolina Basketball Home</a></li>
                 <li><a href="">Men's Basketball Team</a></li>
-                <li><a href="">Women's Basketball Team</a></li>
+                <li><a href="#">Women's Basketball Team</a></li>
         </ul>
         </div>
 	<div id="playersCard">
@@ -26,6 +25,7 @@
 			<tr><h4>Fun Fact: {{member.funFact}}</h4></tr>
 			<tr><h4>Hometown: {{member.hometown}}</h4></tr>
 			<tr><h4>Grade: {{member.year}}</h4></tr>
+			<tr><h4>Bio: {{member.bio}}</h4></tr>
 		  </table>
 		  
 	</div> <!--close playersCard-->

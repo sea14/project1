@@ -7,7 +7,7 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 def home(request):
         context = {
         'memberCount': Member.objects.all(),
-        'teamInfo': Teams.objects.all(),
+        'teamsInfo': Teams.objects.all(),
         'memberNumber': Member.objects.count(),
 }
         return render(request, "team/team.html", context)
@@ -19,6 +19,8 @@ def member(request, pk):
 
 def teams(request):
     context = {
-        'memberCount': Member.objects.all()
+        'memberCount': Member.objects.all(),
+        'teamsInfo' : Teams.objects.all(),
+        'teamsCount' : Teams.objects.count()
     }
     return render (request, "team/team.html", context)

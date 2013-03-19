@@ -9,7 +9,8 @@
 				"year": "Freshman",
 				"hometown": "West Palm Beach, Fla.",
 				"number": "0",
-				"funFact": "Did not play organized basketball until his sophomore year of high school"
+				"funFact": "Did not play organized basketball until his sophomore year of high school",
+				"bio": "James was born on January 22nd, 1994 in West Palm Beach, Fla. He played for coach Fred Ross at William T. Dwyer High in Palm Beach Gardens, Florida when younger."
 			}
 		
 	},{
@@ -22,7 +23,9 @@
 				"year": "Senior",
 				"hometown": "Rahway, N.J.",
 				"number": "1",
-				"funFact": "Has started 59 of 92 games"
+				"funFact": "Has started 59 of 92 games",
+				"bio": "Although he underwent surgery in February 2012, Strickland was cleared to resume basketball activities in August 2012. Strickland was born in Newark, N.J on October 1st, 1990."
+				
 		
 		}
 
@@ -36,7 +39,9 @@
 				"year": "Junior",
 				"hometown": "Memphis, Tenn.",
 				"number": "2",
-				"funFact": "Has 62 career three-pointers"
+				"funFact": "Has 62 career three-pointers",
+				"bio": "Although McDonald missed last season after a knee injury, he was allowed to continue playing after its end. He was born on February 4th, 1991 in Memphis, Tennessee."
+				
 		}
 
 	},{
@@ -49,8 +54,10 @@
 				"year": "Junior",
 				"hometown": "Mount Airy, N.C",
 				"number": "3",
-				"funFact": "A veteran of the UNC Junior Varsity program"
-			}
+				"funFact": "A veteran of the UNC Junior Varsity program",
+				"bio": "Moody started his time with UNC basketball as a walk-on, but joined the varsity team in October 2012. He was born on September 6th, 1991 in Mount Airy, NC."
+				
+			} 
 
 	},{
 		"pk": 5,
@@ -62,7 +69,9 @@
 				"year": "Sophomore",
 				"hometown": "Raleigh, N.C.",
 				"number": "4",
-				"funFact": "Transferred to UNC from Gardner Webb after playing for the Buildings"
+				"funFact": "Transferred to UNC from Gardner Webb after playing for the Bulldogs",
+				"bio": "Davis sat out the 2011-2012 season as a redshirt at Carolina but joined the team this year. He was born on April 9th, 1991 in Raleigh, NC."
+				
 			}
 	},{
 		
@@ -75,7 +84,8 @@
 				"year": "Freshman",
 				"hometown": "Marion, Iowa",
 				"number": "5",
-				"funFact": "Is left-handed"
+				"funFact": "Is left-handed",
+				"bio": "Paige is expected to work with Strickland to make up most of the point guard minutes for the 2012-2012 season. He was born on September 11th, 1993 in Cedar Rapids, Iowa."
 			}
 	},{
 
@@ -89,7 +99,8 @@
 				"year": "Freshman",
 				"hometown": "Orangeburg, S.C.",
 				"number": "11",
-				"funFact": "Member of the National Honor Socient and Fellowhsip of Christian Athletes in high school"
+				"funFact": "Member of the National Honor Socient and Fellowhsip of Christian Athletes in high school",
+				"bio": "Johnson hopes to contribute to the Tar Heel frontline. He was born on June 27th, 1994 in Orangeburg, S.C."
 			}
 	},{
 		"pk": 8,
@@ -102,7 +113,8 @@
 				"year": "Sophomore",
 				"hometown": "Cream Ridge, N.J.",
 				"number": "14",
-				"funFact": "Played 25 games as a freshman"
+				"funFact": "Played 25 games as a freshman",
+				"bio": "Hubert served as a reserve last season. He was born on July 15th, 1992 in Willingboro, N.J."
 			}
 	},{
 		"pk": 9,
@@ -115,7 +127,8 @@
 				"year": "Sophomore",
 				"hometown": "Greensboro, N.C.",
 				"number": "15",
-				"funFact": "Born on Christmas Eve in 1992."
+				"funFact": "Born on Christmas Eve in 1992.",
+				"bio": "Hairston plans to improve his skills this season. He was born in Greensboro, NC."
 			}
 	},{
 		"pk": 10,
@@ -127,7 +140,8 @@
 				"year": "Sophomore",
 				"hometown": "Webster, N.C.",
 				"number": "21",
-				"funFact": "Played 23 games as a freshman"
+				"funFact": "Played 23 games as a freshman",
+				"bio": "Simmons managed to add 15 pounds to his frame in his first year. He has a GPA of 4.2 in high school."
 			}
 	},{
 		"pk": 11,
@@ -139,7 +153,8 @@
 				"year": "Senior",
 				"hometown": "Charlotte, N.C.",
 				"number": "22",
-				"funFact": "A two-year veteran of the UNC Junior Varsity program"
+				"funFact": "A two-year veteran of the UNC Junior Varsity program",
+				"bio": "Although he played JV basketball during his first two years a Tar Heel, Tanner joins the varisty team this season. He was born on September 22nd, 1990."
 			}
 	},{
 		"pk": 12,
@@ -151,7 +166,8 @@
 				"year": "Freshman",
 				"hometown": "Menomonee Falls, Wisc.",
 				"number": "25",
-				"funFact": "Played soccer until age 13"
+				"funFact": "Played soccer until age 13",
+				"bio": "Tokoto's last name is pronounced TOE-kuh-toe. His full first name is Jean-Pierre. He was born on September 15th, 1993 in Rockford Illinois."
 		}
 
 	},{	"pk": 13,
@@ -163,7 +179,8 @@
 				"year": "Junior",
 				"hometown":"Carrboro, N.C.",
 				"number": "30",
-				"funFact": "A two-year veteran of UNC Junior Varsity program"
+				"funFact": "A two-year veteran of UNC Junior Varsity program",
+				"bio": "Manor joined the varsity team in October 2012 after spending two years on the UNC JV program. He was born on January 6th, 1992 in Carrboro, N.C."
 			}
 		
 
@@ -178,7 +195,8 @@
 				"year": "Junior",
 				"hometown": "Chapel Hill, N.C.",
 				"number": "34",
-				"funFact": "A walk-on who joined the varisty team in October 2012"
+				"funFact": "A walk-on who joined the varisty team in October 2012",
+				"bio": "Robinson is a walk-on who joined the varsity team in October 2012. He was born on March 20th, 1991, in Lawrence, Kansas."
 			}	
 
 		},{
@@ -193,8 +211,8 @@
 				"year": "Junior",
 				"hometown": "Kinston, N.C.",
 				"number": "34",
-				"funFact": "Carolina's leading returning scorer for 2012-2013"
-
+				"funFact": "Carolina's leading returning scorer for 2012-2013",
+				"bio": "Bullock is Carolina's leading returning scorer for the season and averaged 8.8 points per game last season. He was born March 16th, 1991 in Baltimore, Md."
 			}
 
 		},{
@@ -208,8 +226,8 @@
 				"year": "Sophomore",
 				"hometown": "Norfolk, Va.",
 				"number": "43",
-				"funFact": "His parents played professional basketball overseas"
-
+				"funFact": "His parents played professional basketball overseas",
+				"bio": "McAdoo is UNC's top man off the bench and one of the top-rated power forwards in college basketball. He was born on January 4th, 1993."
 			}	
 
 		}
