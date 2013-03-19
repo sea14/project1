@@ -1,7 +1,7 @@
 /*styles written by me, not used from Bootstrap*/
 #playersCard{
-    margin-left: 20%;
-    width: 50%;
+    margin-left: 15%;
+    width: 76%;
     background: #000;
     border-radius: 30px;
     -moz-border-radius: 30px;
@@ -53,12 +53,31 @@
     
 }
 
-#logo{
+#header{
     
-    background: #000099;
     height: 20%;
     width: 100%;
 }
+#header > h1{
+    
+    text-align: center;
+    
+}
 #teamStats > h1{
     text-align: center;
+}
+.bball{
+    
+}
+.lacr{
+    
+}
+.base{
+    
+}
+.soft{
+    
+}
+.volley{
+    
 }

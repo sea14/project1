@@ -3,18 +3,33 @@
 {% load url from future %}
 {% block content %}
       
+      <div id = "header">
+	    
+	    <h1>CAROLINA TARHEELS 2012 - 2013</h1>
+	    
+      </div>
+      <div class="navbar">
+	      <div class="navbar-inner">
+  
+          <ul class="nav">
+            <li><a href="#">HOME</a></li>
+            <li class="bball"><a href="#">MEN'S BASKETBALL</a></li>
+            <li class="bball"><a href="#">WOMEN'S BASKETBALL</a></li>
+            <li class="base"><a href="#">BASEBALL</a></li>
+            <li class="soft"><a href="#">SOFTBALL</a></li>
+            <li class="volley"><a href="#">VOLLEYBALL</a></li>
+            <li class="lacr"><a href="#">LACROSSE</a></li>
+          </ul>
+        </div>
+      </div>
+      
       <div id = "logo">
 	    
 	    <h1>{{teams.name}}</h1>
 	    
       </div>
 	
-	  <ul class = "nav nav-pills">
-                <li><a href="">Men's Basketball Team</a></li>
-                <li><a href="#">Women's Basketball Team</a></li>
-        </ul>
-        </div>
-	<div id="playersCard">
+      <div id="playersCard">
 	    
 	    <h2>#{{member.number}} {{member.name}} <img src="{{ STATIC_URL }}/img/tinyball.png">
 	    <hr>
@@ -28,5 +43,5 @@
 			<tr><h4>Bio: {{member.bio}}</h4></tr>
 		  </table>
 		  
-	</div> <!--close playersCard-->
+      </div> <!--close playersCard-->
 {% endblock %}
