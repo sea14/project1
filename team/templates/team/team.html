@@ -10,27 +10,65 @@
   
           <ul class="nav">
             <li><a href="{% url 'team_home' %}">HOME</a></li>
-            <li><a class="bball" href="#">MEN'S BASKETBALL</a></li>
-            <li><a class="bball" href="#">WOMEN'S BASKETBALL</a></li>
-            <li><a class="base" href="#">BASEBALL</a></li>
-            <li><a class="soft" href="#">SOFTBALL</a></li>
-            <li><a class="volley" href="#">VOLLEYBALL</a></li>
-            <li><a class="lacr" href="#">FOOTBALL</a></li>
+            <li><a href="#">MEN'S BASKETBALL</a></li>
+            <li><a href="#">WOMEN'S BASKETBALL</a></li>
+            <li><a href="#">BASEBALL</a></li>
+            <li><a href="#">SOFTBALL</a></li>
+            <li><a href="#">VOLLEYBALL</a></li>
+            <li><a href="#">FOOTBALL</a></li>
           </ul>
         </div>
       </div>
+      
+              <div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+                <div class="active item"><img src="http://image.cdnllnwnl.xosnetwork.com/pics32/640/PN/PNBUAXOGXZIFXBE.20130224001828.jpg"></div>
+                <div class="item"><img src="http://image.cdnllnwnl.xosnetwork.com/pics33/640/TN/TNOKOQREESERDEA.20130313133456.jpg"></div>
+                <div class="item"><img src= "http://image.cdnllnwnl.xosnetwork.com/pics33/640/YN/YNJCDVUDAYKUWNL.20130318181918.jpg"></div>
+                <div class="item"><img src="http://image.cdnllnwnl.xosnetwork.com/pics33/640/HI/HIUYOGIWVKTQCSV.20130316133053.jpg"></div>
+
+        </div>
+        <!--Carousel nav -->
+        <a class ="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+      
       <div id="teamStats">
 	
 	<h1>Overall Team Stats <img src="{{ STATIC_URL }}/img/tinyball.png"></h1>
 	
-	    {% for a in teamsInfo%}
+        <table class = "table mainTable">
+	    
+	    <th>Name</th>
+	    <th>Head Coach</th>
+	    <th>Wins</th>
+	    <th>Losses</th>
+	    
+	  {% for l in teamsInfo %}
 	    <tr>
-		  <td>{{teams.name}}</td>
+	    <td>{{l.name}}</td>
+	    <td>{{l.coach}}</td>
+	    <td>{{l.wins}}</td>
+	    <td>{{l.losses}}</td>
 	    </tr>
-	    
+		  
 	    {% endfor %}
-	    
-      </div>	
+	    </table>
+	<h1>Team Players <img src="{{ STATIC_URL }}/img/tinyball.png"></h1>
+	
+      </div>
+      
+      
 	
 	<table class = "table mainTable">
 	<th>Name</th>
