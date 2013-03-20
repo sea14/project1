@@ -10,7 +10,7 @@ def home(request):
         'teamsInfo': Teams.objects.all(),
         'memberNumber': Member.objects.count(),
 }
-        return render(request, "team/team.html", context)
+        return render(request, "team/home.html", context)
 
 def member(request, pk):
 	member = get_object_or_404(Member, id=pk)

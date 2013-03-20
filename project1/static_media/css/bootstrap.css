@@ -4621,7 +4621,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  color: #333333;
+  color: #65aef9;
   text-decoration: none;
   background-color: transparent;
 }
@@ -5970,8 +5970,12 @@ a.badge:focus {
   position: relative;
   margin-bottom: 20px;
   line-height: 1;
-  width: 75%;
+  width: 68%;
   overflow: hidden;
+  margin-left: 14%;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  border: 20px solid #000;
 }
 
 .carousel-inner {
@@ -5983,6 +5987,7 @@ a.badge:focus {
 .carousel-inner > .item {
   position: relative;
   display: none;
+  background: #000;
   -webkit-transition: 0.6s ease-in-out left;
      -moz-transition: 0.6s ease-in-out left;
        -o-transition: 0.6s ease-in-out left;
