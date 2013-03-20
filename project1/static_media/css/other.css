@@ -66,18 +66,10 @@
 #teamStats > h1{
     text-align: center;
 }
-.bball{
+
+#logo{
     
-}
-.lacr{
-    
-}
-.base{
-    
-}
-.soft{
-    
-}
-.volley{
+    margin-bottom: 70px;
+    margin-top: 10px;
     
 }
